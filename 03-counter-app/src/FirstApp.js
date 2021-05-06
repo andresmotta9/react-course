@@ -12,7 +12,7 @@ const FirstApp = ({ greet, subtitle }) => {
     <>
       <h1> {greet} </h1>
       {/* <pre> { JSON.stringify( person, null, 3) } </pre> */}
-      <p>{subtitle}</p>
+      <p> {subtitle} </p>
     </>
   );
 };

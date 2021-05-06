@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <FirstApp />> should show <FirstApp /> correctly 1`] = `
+<Fragment>
+  <h1>
+     
+    Hi, I am Andres
+     
+  </h1>
+  <p>
+     
+    I am a subtitle
+     
+  </p>
+</Fragment>
+`;
