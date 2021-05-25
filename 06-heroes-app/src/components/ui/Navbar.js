@@ -3,10 +3,10 @@ import { Link, NavLink } from 'react-router-dom';
 
 export const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-sm navbar-dark bg-dark px-3">
             
             <Link 
-                className="navbar-brand" 
+                className="navbar-brand pl-3" 
                 to="/"
             >
                 Asociaciones
@@ -35,7 +35,7 @@ export const Navbar = () => {
                 </div>
             </div>
 
-            <div className="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <div className="navbar-collapse collapse w-100 order-3 dual-collapse2 justify-content-end">
                 <ul className="navbar-nav ml-auto">
                     <NavLink 
                         activeClassName="active"
