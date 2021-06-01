@@ -12,6 +12,8 @@ describe('Tests on <PrivateRoute />', () => {
         }
     }
 
+    Storage.prototype.setItem = jest.fn();
+
     test('should  show the component if the user is authenticated and save localstorage', () => {
         
         const wrapper = mount(
@@ -25,6 +27,7 @@ describe('Tests on <PrivateRoute />', () => {
         );
         
         expect ( wrapper.find('span').exists() ).toBe(true);
+        expect( localStorage.setItem ).toHaveBeenCalledWith("lastPath",'/marvel');
 
     })
     
