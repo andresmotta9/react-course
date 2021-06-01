@@ -7,7 +7,7 @@ import { HeroScreen } from '../components/heroes/HeroScreen';
 import { DcScreen } from '../components/dc/DcScreen';
 import { SearchScreen } from '../components/search/SearchScreen';
 
-export const DashboardRoutes = () => {
+export const DashboardRoutes = ({ history }) => {
     return (
         <>
             <Navbar />
