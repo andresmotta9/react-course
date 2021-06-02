@@ -1,7 +1,8 @@
 import React from 'react';
-import { mount } from 'enzyme'
+import { mount } from 'enzyme';
 import { AppRouter } from '../../routers/AppRouter';
 import { AuthContext } from '../../auth/AuthContext';
+
 
 describe('Tests on <AppRouter />', () => {
     
