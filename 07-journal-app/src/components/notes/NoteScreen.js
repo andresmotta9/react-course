@@ -21,7 +21,7 @@ export const NoteScreen = () => {
                 <div className="notes__image">
                     <img 
                         src="https://d25rq8gxcq0p71.cloudfront.net/dictionary-images/324/landscape.jpg"
-                        alt="a landscape image"
+                        alt="a landscape"
                     />
                 </div>
             </div>
