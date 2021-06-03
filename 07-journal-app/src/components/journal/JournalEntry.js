@@ -7,7 +7,7 @@ export const JournalEntry = () => {
                 className="journal__entry-picture"
                 style={{
                     backgroundSize: 'cover',
-                    backgroundImage: 'url(https://lh3.googleusercontent.com/proxy/ekCeHzn5O1UFvXkcCVrOrMxk_1YYtM9TJ3faA5Y6ghifvndr5Q5SfJnLblcJKXxzE4d3teBRg4m5unEbSoPhOP9BYkOln2Le4TiR1PZOEBaN3NtgHZENvP0m8QfhMQwcivaGTLEAbnygqhV8XnfFgZEFxaiIi60)'
+                    backgroundImage: 'url(https://images.iphonephotographyschool.com/22685/1120/How-To-Blur-Background-On-iPhone.jpg)'
                 }}
             ></div>
 
